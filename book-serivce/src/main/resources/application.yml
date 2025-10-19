@@ -1,0 +1,18 @@
+server:
+  port: 8100
+spring:
+  application:
+    name:
+      book-serivce
+  datasource:
+    url: jdbc:postgresql://localhost:5432/book_service
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+    show-sql: true
+    open-in-view: true
