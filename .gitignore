@@ -1,0 +1,39 @@
+# === SO / Editor ===
+.DS_Store
+Thumbs.db
+
+# === IntelliJ IDEA / JetBrains ===
+# ignore tudo do .idea e metadados de módulos
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# === Maven / Gradle ===
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# Gradle (se existir)
+.gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# === VS Code ===
+.vscode/
+
+# === STS / NetBeans (se não usa, pode remover) ===
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
